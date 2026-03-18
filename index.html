@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tagta Greeting Cards</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fafafa;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #f1ebe6;
+    padding: 30px;
+}
+
+header img {
+    width: 120px;
+}
+
+section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="images/logo.png" alt="Tagta Logo">
+    <h1>Tagta</h1>
+    <p>Thoughtful Cards for Every Moment</p>
+</header>
+
+<section>
+    <h2>Featured Cards</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="images/card1.png" alt="Another Year Still Amazing">
+            <h3>Another Year, Still Amazing</h3>
+            <p><strong>Front:</strong> Another year older… and somehow even more amazing.</p>
+            <p><strong>Inside:</strong> Wishing you a birthday filled with happiness and laughter.</p>
+            <p class="price">$4.50</p>
+        </div>
+
+        <div class="card">
+            <img src="images/card2.png" alt="You Did It">
+            <h3>You Did It!</h3>
+            <p><strong>Front:</strong> You did it!</p>
+            <p><strong>Inside:</strong> Your hard work paid off—this is just the beginning.</p>
+            <p class="price">$4.50</p>
+        </div>
+
+        <div class="card">
+            <img src="images/card3.png" alt="You Are Enough">
+            <h3>You Are Enough</h3>
+            <p><strong>Front:</strong> You are enough.</p>
+            <p><strong>Inside:</strong> You are strong, capable, and enough just as you are.</p>
+            <p class="price">$4.50</p>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
